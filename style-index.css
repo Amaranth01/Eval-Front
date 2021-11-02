@@ -177,6 +177,28 @@ img {
     height: 24rem;
     margin-right: 14.19rem;
     bottom: 8rem;
+    z-index: -3;
+}
+
+#arrow-r {
+    margin-right: 28.5rem;
+    margin-top: -40%;
+}
+
+#arrow-l {
+    margin-right: 14.5rem;
+    margin-top: -40%;
+}
+
+#arrow-l, #arrow-r {
+    display: inline-block;
+    color: white;
+    width: 3%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    z-index: 31;
+    float: right;
 }
 
 
