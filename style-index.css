@@ -177,13 +177,13 @@ img {
 }
 
 #arrow-r {
-    margin-right: 28rem;
-    margin-top: -33%;
+    margin-right: 31rem;
+    margin-top: -30%;
 }
 
 #arrow-l {
-    margin-right: 19rem;
-    margin-top: -33%;
+    margin-right: 20.5rem;
+    margin-top: -30%;
 }
 
 #arrow-l, #arrow-r {
@@ -197,8 +197,157 @@ img {
     float: right;
 }
 
+@media screen and (max-width: 800px){
+
+    #contact, #profile, #exp, #educ, #blog, #social, #co, #folio, img {
+      bottom: 8.75rem;
+    }
+
+    #arrow-r, #arrow-l {
+        vertical-align: top;
+    }
+
+    #arrow-r {
+        float: left;
+        margin-left: 45%;
+    }
+
+    #arrow-l {
+        margin-right: 17rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    #contact, #profile, #exp, #educ, #blog, #social, #co, #folio, img {
+        bottom: 9.45rem;
+    }
+
+    #arrow-r, #arrow-l {
+        margin-top: -18rem;
+    }
+
+}
+
+    @media screen and (max-width: 750px) {
+
+        #arrow-l {
+            margin-right: 12rem;
+        }
+    }
+
+    @media screen and (max-width: 750px) {
+
+        #content {
+            height: 31rem;
+        }
+
+        .box {
+            height: 6rem;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        img, #arrow-l, #arrow-r {
+            display: none;
+        }
+
+        #Bradley-cooper {
+            width: 100%;
+            height: 7rem;
+        }
+
+        #exp {
+            display: flex;
+            margin-top: 9.45rem;
+            width: 50%;
+        }
+
+        #exp > p {
+            margin-left: 2rem;
+        }
+
+        #profile {
+            justify-content: left;
+            margin-left: 0;
+            float: right;
+            width: 50%;
+            margin-top: 9.45rem;
+            height: 6rem;
+        }
+
+        #profile > p {
+            margin-left: 3rem;
+        }
+
+        #educ, #blog, #social, #co {
+            display: flex;
+            width: 50%;
+        }
+
+        #educ > p, #social > p, #co > p {
+            margin-left: 2rem;
+        }
+
+        #blog > p {
+            margin-left: 3rem;
+        }
+
+        #folio {
+            width: 100%;
+            border: black 1px solid;
+        }
+
+        #folio > p {
+            margin-left: 7rem;
+        }
+    }
+
+@media screen and (max-width: 365px) {
+
+    #resume {
+        margin-left: 5rem;
+        text-align: center;
+        margin-top: 0.3rem;
+    }
 
 
+    #contact {
+        display: none;
+    }
+
+    #profile {
+         margin-top: 9.4rem;
+     }
+
+    #exp {
+        margin-top: 9.4rem;
+    }
+
+    #folio {
+        width: 99%;
+    }
+
+    #folio > p {
+        margin-left: 5rem;
+    }
+
+    #exp >p, #educ > p, #social >p {
+        margin-left: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    #profile > p, #co > p {
+        margin-left: 1.3rem;
+    }
+
+    #blog > p {
+        margin-left: 2rem;
+    }
+}
 
 
 
