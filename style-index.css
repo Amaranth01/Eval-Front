@@ -178,11 +178,11 @@ img {
 }
 
 #arrow-r {
-    margin-right: 40rem;
+    margin-right: 50rem;
 }
 
 #arrow-l {
-    margin-right: 26.5rem;
+    margin-right: 33.1rem;
 }
 
 #arrow-l, #arrow-r {
@@ -194,7 +194,7 @@ img {
     border-radius: 50%;
     z-index: 31;
     float: right;
-    margin-top: -25%;
+    margin-top: -20%;
 }
 
 @media screen and (max-width: 800px){
